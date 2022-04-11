@@ -1,0 +1,49 @@
+# -*- coding: utf-8 -*-
+###################################################################################
+#
+#  Init.py
+#  
+#  Copyright 2018 Mark Ganson <TheMarkster>
+#  
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation; either version 2 of the License, or
+#  (at your option) any later version.
+#  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#  
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#  MA 02110-1301, USA.
+#  
+#  
+###################################################################################
+
+import FreeCAD
+
+import WeldingWB_locator
+WeldingWB_path = os.path.dirname( WeldingWB_locator.__file__ )
+# Assembly4 version info
+
+# with file VERSION
+versionPath = os.path.join( WeldingWB_path, 'VERSION' )
+versionFile = open(versionPath,"r")
+# read second line
+version = versionFile.readlines()[1]
+versionFile.close()
+# remove trailing newline
+WeldingWB_version = version[:-1]
+
+'''
+# with file package.xml
+packageFile  = os.path.join( Asm4_path, 'package.xml' )
+metadata     = FreeCAD.Metadata(packageFile)
+Asm4_date    = metadata.Date
+Asm4_version = metadata.Version
+'''
+
+print("Welding workbench ("+WeldingWB_version+") loaded")
