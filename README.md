@@ -51,6 +51,11 @@ You can get more information in the [user instructions](INSTRUCTIONS.md), the [t
 
 ## Release notes
 
+* 2022.04.11 (**0.0.2**) :  
+Setup GitHub directory  
+Populate default InitGui  
+Corrections by Luzpaz  
+
 * 2022.04.11 (**0.0.1**) :  
 Initial commit  
 
