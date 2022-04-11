@@ -17,6 +17,7 @@
       <icon>Resources/icons/Welding.svg</icon>
       <tag>welding</tag>
       <freecadmin>0.19.0</freecadmin>
+      <depend>Assembly4</depend>
     </workbench>
   </content>
 
