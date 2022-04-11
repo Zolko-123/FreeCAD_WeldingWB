@@ -3,15 +3,15 @@
 Current version 0.0.1
 
 
-
 ## Overview
 
-This workbench intends to make it easy to create welded tubing frames. Any types of sections (round tube, square tube, I or L sections...) can be used. The resulting frame is created inside an _App::Part_ container, that can be re-used with any FreeCAD tool handling _App::Part_ objects
+This workbench intends to make it easy to create welded tubing frames. Any types of sections (round tube, square tube, I or L sections...) can be used. The resulting frame is created inside an _App::Part_ container, that can be re-used with any FreeCAD tool handling _App::Part_ objects.
 
 
-**Please Note:** This workbench uses tools povided by the [Assembly4 workbenc](https://github.com/Zolko-123/FreeCAD_Assembly4), thus this must be installed. 
+## Prerequisites
 
-
+* FreeCAD v0.19 or higher
+* [Assembly4](https://github.com/Zolko-123/FreeCAD_Assembly4) workbench available through the FreeCAD [Addon Manager](https://wiki.freecad.org/AddonManager).
 
 ## Installation
 
@@ -41,13 +41,10 @@ In this case, download the Github [FreeCAD_Welding-master.zip](https://github.co
 
 You can get more information in the [user instructions](INSTRUCTIONS.md), the [technical manual](TECHMANUAL.md), and you can use the provided [example assemblies](https://github.com/Zolko-123/FreeCAD_Examples) to experiment with this workbench's features. There are also online tutorials :
 
-* [a quick assembly from scratch](https://github.com/Zolko-123/FreeCAD_Examples/blob/master/Asm4_Tutorial1/README.md)
-* [a cinematic assembly in one file, using a master sketch](https://github.com/Zolko-123/FreeCAD_Examples/blob/master/Asm4_Tutorial2/README.md)
-* [a Lego assembly](https://github.com/Zolko-123/FreeCAD_Examples/blob/master/Asm4_Tutorial3/README.md)
+* [Quick assembly from scratch](https://github.com/Zolko-123/FreeCAD_Examples/blob/master/Asm4_Tutorial1/README.md)
+* [Cinematic assembly in one file, using a master sketch](https://github.com/Zolko-123/FreeCAD_Examples/blob/master/Asm4_Tutorial2/README.md)
+* [Lego assembly](https://github.com/Zolko-123/FreeCAD_Examples/blob/master/Asm4_Tutorial3/README.md)
 * [Some examples to play with](https://github.com/Zolko-123/FreeCAD_Examples)
-
-
-
 
 
 
