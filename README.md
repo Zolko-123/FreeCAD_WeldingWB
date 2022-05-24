@@ -1,11 +1,14 @@
 # FreeCAD Welding workbench
 
-Current version 0.0.1
+Current version 0.0.3
 
 
 ## Overview
 
 This workbench intends to make it easy to create welded tubing frames. Any types of sections (round tube, square tube, I or L sections...) can be used. The resulting frame is created inside an _App::Part_ container, that can be re-used with any FreeCAD tool handling _App::Part_ objects.
+
+
+![](Resources/media/Screenshot.png)
 
 
 ## Prerequisites
@@ -50,6 +53,9 @@ You can get more information in the [user instructions](INSTRUCTIONS.md), the [t
 
 
 ## Release notes
+
+* 2022.05.24 (**0.0.3**) :  
+Screenshot  
 
 * 2022.04.11 (**0.0.2**) :  
 Setup GitHub directory  
